@@ -13,6 +13,8 @@
 		4EA027DB25EFA1520015AD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA027D925EFA1520015AD5B /* Main.storyboard */; };
 		4EA027DD25EFA1540015AD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA027DC25EFA1540015AD5B /* Assets.xcassets */; };
 		4EA027E025EFA1540015AD5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA027DE25EFA1540015AD5B /* LaunchScreen.storyboard */; };
+		4EA027EB25F0140D0015AD5B /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4EA027E925F0140D0015AD5B /* level1.txt */; };
+		4EA027EC25F0140D0015AD5B /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4EA027EA25F0140D0015AD5B /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4EA027DC25EFA1540015AD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EA027DF25EFA1540015AD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EA027E125EFA1540015AD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA027E925F0140D0015AD5B /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		4EA027EA25F0140D0015AD5B /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				4EA027D325EFA1520015AD5B /* AppDelegate.swift */,
 				4EA027D525EFA1520015AD5B /* SceneDelegate.swift */,
 				4EA027D725EFA1520015AD5B /* ViewController.swift */,
+				4EA027E925F0140D0015AD5B /* level1.txt */,
+				4EA027EA25F0140D0015AD5B /* level2.txt */,
 				4EA027D925EFA1520015AD5B /* Main.storyboard */,
 				4EA027DC25EFA1540015AD5B /* Assets.xcassets */,
 				4EA027DE25EFA1540015AD5B /* LaunchScreen.storyboard */,
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA027EC25F0140D0015AD5B /* level2.txt in Resources */,
 				4EA027E025EFA1540015AD5B /* LaunchScreen.storyboard in Resources */,
+				4EA027EB25F0140D0015AD5B /* level1.txt in Resources */,
 				4EA027DD25EFA1540015AD5B /* Assets.xcassets in Resources */,
 				4EA027DB25EFA1520015AD5B /* Main.storyboard in Resources */,
 			);
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alikarababa.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alikarababa.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
